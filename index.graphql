@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>M</span>atthew <span>F</span>erguson</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Matthew Ferguson <span></span></h1>
+        <a href="#projects" type="button" class="cta">Recent Projects</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Taco Parser</h1>
+            <h2>C# .NET Core Application where I parse data from a csv file to reference Taco Bell
+              Locations. That data is then used to calculate the distance between the two locations that
+              are farthest apart.</h2>
+            <p>I Utilized xUnit to create unit tests for Test Driven Development and then Parsed CSV data to create TacoBell Locations. Which I used to find the farthest TacoBell locations</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>CRUD BestBuy Database</h1>
+            <h2>ASP.NET MVC Framework used to create a project that allows for CRUD operations to be
+              used with a MySQL Database.</h2>
+            <p>I worked with Mock Data from MySQL schema representing products, sales,
+              employees, and reviews for Best Buy and then utilized Dapper to query the data received from the database. where I finally Created functionality for INSERT, SELECT, UPDATE, AND DELETE to be utilized for
+              accessing/altering the data stored in MySQL database.
+            
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Weather by location<a href=" https://weatherforcastapp.azurewebsites.net/"><h1>Website</h1>  </a> </h1>
+            <h2>ASP.NET MVC Framework was used to create a project that takes the data from a weather API and gave me the current weather for anywhere in the world. Then I used a google maps API to show me the location on a satellite map!</h2>
+            <p>Obtained data from two separate APIs.
+              Worked with both JSON Objects and JSON Arrays. 
+              Combined results from APIs to show me the data from the weather 
+             Presented results in a clean format for the user then published my projrt on azure! 
+             
+             </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Weather by zip code </h1>
+            <h2>C# .NET Core Application where I obtain Mock Data to create a MySQL Database to store
+              locations in the United States. The locations are then used to obtain the current weather
+              information from the Open Weather Map API.
+              </h2>
+            <p>Parsed JSON Objects from the Open Weather Map API. I Created a MySQL Database using Mock Data and then utilized Dapper to query results from MySQL. Then I Presented the current weather for the zip code that the user typed in.
+              
+             </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Kanye and Ron conversation</h1>
+            <h2>C# .Net Core Application where I use two different APIs to obtain quotes from Kanye West
+              as JSON Objects, and quotes from Ron Swanson as JSON Arrays. The quotes are then used to
+              simulate a conversation between the two.</h2>
+            <p>I Obtained data from two separate APIs and worked with both JSON Objects and JSON Arrays tuen combined results from APIs to simulate a conversation.
+              Then i finally presented results to the user in a clean format.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Developer with a focus on backend Development</h2>
+        <p>I’m the type of person who loves to build whether it is construction (like my old job) or programming, I love to see something come together from nothing but an idea or a dream that a person has! I love coding because I can really connect to people by making someone's dream a reality! </p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 256-318-6682</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>matt21ferguson@gmail.com</h2>
+            
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Hartselle, Alabama,USA</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>M</span>atthew <span>F</span>erguson</h1>
+      </div>
+      <h2>Or message me on any of these</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/matt.ferguson.520125"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/matt21ferguson/?hl=en"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/matt21ferg?tab=repositories"><img src="https://img.icons8.com/ios-filled/344/github.png" width="20%" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/matt-ferguson-b7312922b/"><img src="./img/in-gcacdde2e9_640.png"  /></a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
